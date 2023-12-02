@@ -1,6 +1,6 @@
 import "./App.css";
 import Alert from "./Component/Ui/Alert/Alert";
-import { BellRing } from "lucide-react";
+import { BellRing,Ban } from "lucide-react";
 
 function App() {
   return (
@@ -42,7 +42,7 @@ Sint"
       />
       <Alert
         type={"alert-warning"}
-        icon={<BellRing size={20} />}
+        icon={< Ban size={20} />}
         title={"Somthing Went Rong"}
         description="Lorem ipsum dolor sit amet consectetur 
   adipisicing elit. Libero laborum odio 
